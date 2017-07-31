@@ -1,0 +1,19 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "web",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "webpack": "webpack --config webpack.config.js --progress --display-modules --colors --display-reasons"
+  },
+  "keywords": [
+    "web1"
+  ],
+  "author": "json",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.3.0"
+  }
+}
